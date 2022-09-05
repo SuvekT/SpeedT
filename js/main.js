@@ -1,10 +1,10 @@
-window.addEventListener('load',init);
+window.addEventListener('load',init); 
 
 // global variables
 
 
 // availabe levels
-const levels={
+const levels={ // array of level for future improvement in porject
     easy :32,
     medium : 20,
     hard : 15
@@ -15,7 +15,7 @@ const currentlevel = levels.easy;
 
 let time=32;  
 let score=0;
-let isPlaying;
+let isPlaying; // bool variable for checking whether player is playing
 
 // dom elements 
 const wordInput= document.querySelector('#word-input');
